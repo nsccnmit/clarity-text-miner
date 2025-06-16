@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { createWorker } from 'tesseract.js';
@@ -104,7 +103,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 p-4">
+    <div className="min-h-screen bg-black p-4">
       <div className="container mx-auto max-w-4xl">
         {/* Header */}
         <div className="text-center mb-8">
